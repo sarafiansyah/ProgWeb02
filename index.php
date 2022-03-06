@@ -7,6 +7,7 @@
     <!-- STYLESHEET : CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -17,6 +18,16 @@
       <link type="text/css" href="css/responsive.css" rel="stylesheet">
      <link type="text/css" href="css/styles.css" rel="stylesheet">
      <link type="text/css" href="css/wavebutton.css" rel="stylesheet">
+     <link type="text/css" href="css/feedback.css" rel="stylesheet">
+
+
+     <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	
+
 
         <!-- MAIN HTML TITLE -->
         <link rel="icon" type="image/x-icon" href="images/favicon.png">
@@ -68,7 +79,7 @@
                   <div class="float-start float-left img-fluid" data-aos="fade-up" data-aos-duration="1500" id="mainimg1" style="padding-right: 50px">
                     <img src="images/homecar2.png" style="width:550px; height: 550px; margin-top: 90px; padding-left: 50px;" >
                     <!-- <img src="https://source.unsplash.com/512x512/?photography" style="width:500px; height: 500px; margin-top: 90px; padding-left: 50px; border-radius: 0% 100% 0% 100% / 42% 70% 30% 58%  " >-->
-                      
+                      <!--50% 50% 50% 50% / 50% 50% 50% 50% -->
       
                   </div>
                   <div style="margin-top: 180px;">
@@ -120,13 +131,21 @@
           
       
 
-       <div class="aboutText">
-      <p  style="">Fotografi menjadi salah satu kebiasaan masyarakat sejak dulu. Seiring dengan kemajuan teknologi, Kamera yang dulu berfisik kotak klasik kini mengecil dan disematkan pada smartphone. Sebagai generasi modern, sudah semestinya kita memahami teknik dasar dari fotografi. XELVII.com menyediakan penjelasan teknik dasar untuk berbagai jenis kamera, dari DSLR hingga Samartphone!</p>
-       </div>
-      <button type="button" class="btn btn-primary rounded-pill" onclick="window.location.href='techniques.php'">PELAJARI LEBIH LANJUT</button>
-      <button type="button" class="btn btn-outline-light rounded-pill" onclick="window.location.href='credits.php'">BIODATA DEVELOPER</button>
 
-         
+       <div style="float: right;" >
+       <img src="https://source.unsplash.com/512x512/?photography" class="aboutImg" style=" margin-top: -100px; padding-left: 0px; border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%  " >
+       </div>
+       </div>
+       <div class="aboutText ">
+      <p class="aboutText" style=" ">XELVII.com menyediakan penjelasan teknik dasar untuk berbagai jenis kamera, dari DSLR hingga Smartphone!</p>
+       
+      <button type="button" class="btn btn-primary rounded-pill" style="clear: both;" onclick="window.location.href='techniques.php'">PELAJARI LEBIH LANJUT</button>
+      <button type="button" class="btn btn-outline-light rounded-pill" onclick="window.location.href='credits.php'">BIODATA DEVELOPER</button>
+      
+       
+
+      </div>
+      </div>
 </div>
         </div>
 		  
@@ -292,7 +311,67 @@
 </div>
 </div>
 </div>
+
+<div class="homebg4" id="feedback">
+<h1 class="mb-5 text-uppercase text-light text-justify" data-aos="fade-right">FEEDBACK</h1>
+          <p class="text-light text-justify home1cardtext" >Kirimkan kesan-kesanmu terhadap XELVII.com!</p>
+<div class="alert alert-success alert-dismissible fade show d-none sc-alert" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" name="hydro-database-01">
+				<span class="contact100-form-title">
+					Say Hello!
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Full Name</span>
+					<input class="input100" type="text" name="nama" placeholder="Enter your name">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<span class="label-input100">Email</span>
+					<input class="input100" type="text" name="email" placeholder="Enter your email addess">
+					<span class="focus-input100"></span>
+				</div>
+
+				
+
+				
+
+
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<span class="label-input100">Details</span>
+					<textarea class="input100" name="detail" placeholder="Your message here..."></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn" type="submit">
+							<span>
+								Submit
+								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+							</span>
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+
+	<div id="dropDownSelect1"></div>
+
 			</div>
+      </div>
 		        </div> 
            </body>
 		<!-- SECTION FOOTER -->
@@ -311,6 +390,11 @@
         <script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
         <script>AOS.init();</script>
         <script src="js/script.js"></script>
+
+        <script src="vendor/animsition/js/animsition.min.js"></script>
+	
+	
+	<script src="vendor/select2/select2.min.js"></script>
         
 
 

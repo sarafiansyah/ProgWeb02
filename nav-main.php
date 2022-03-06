@@ -15,6 +15,7 @@
         <a href="index.php#about" class="dropdown-item">About </a>
         <a href="index.php#basics" class="dropdown-item">Learn </a>
         <a href="index.php#rating" class="dropdown-item">Rating</a>
+        <a href="index.php#feedback" class="dropdown-item">Feedback</a>
         <a href="index.php#contact" class="dropdown-item">Contact</a>
               </div>
           </div>

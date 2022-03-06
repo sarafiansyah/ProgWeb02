@@ -615,9 +615,21 @@ html {
 	  }
   
 	  .aboutText{
-	  font-size: 28px; text-align: justify;
+	  font-size: 28px; 
+	  text-align: justify;
+	  margin-right: 220px; 
 	  }
   
+
+
+.aboutImg{
+	float: right; 
+	width:400px; 
+	height: 400px; 
+	margin-top: -100px; 
+	
+	}
+
   .home1text{
 	  font-size: 24px;
   }
@@ -969,8 +981,24 @@ html {
 	  }
 
 	  .aboutText{
-		  text-align: left;
+		  clear: both;
+		  text-align: center;
+		  justify-content: center;
+		  margin-left: auto;
+		  margin-right: auto;
 	  }
+
+	  .aboutImg{
+
+		}
+
+		.aboutImg{
+			clear: both;
+			width:300px; 
+			height: 300px; 
+			margin-top: -800px; 
+
+			}
 
   .home1title {
 	  font-size: 8px;
@@ -1150,6 +1178,10 @@ html {
 	  .aboutText{
 		text-align: left;
 	}
+
+	.aboutImg{
+display: none;
+		}
 
   .home1title {
 	  font-size: 8px;
